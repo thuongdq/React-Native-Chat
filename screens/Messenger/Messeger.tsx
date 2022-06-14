@@ -27,6 +27,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 
 const Messenger = (props: any) => {
+    // alert('234')
     const safeAreaInsets = useSafeAreaInsets();
     const { url, name } = props.route.params.user;
     const { navigation } = props;
