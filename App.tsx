@@ -1,20 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-
+import React from 'react';
+import 'react-native-gesture-handler';
+import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import {
+  Login,
+  Welcome,
+  Register,
+  FoodList,
+  ProductGridView,
+  Settings,
+} from './screens';
+import UITab from './navigation/UITab';
+import Navigation from './navigation/Navigation';
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    // <SafeAreaView>
+    <Navigation />
+    // </SafeAreaView>
+
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
