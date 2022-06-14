@@ -1,0 +1,1 @@
+{"ast":null,"code":"import UIButton from \"./UIButton\";\nexport { UIButton };","map":{"version":3,"names":["UIButton"],"sources":["D:/React/react-native-project/training-app/components/index.js"],"sourcesContent":["import UIButton from \"./UIButton\";\r\n\r\nexport {\r\n    UIButton\r\n}"],"mappings":"AAAA,OAAOA,QAAP;AAEA,SACIA,QADJ"},"metadata":{},"sourceType":"module"}

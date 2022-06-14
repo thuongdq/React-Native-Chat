@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default {\n  h1: 25\n};","map":{"version":3,"names":["h1"],"sources":["D:/React/react-native-project/training-app/constants/fontSizes.ts"],"sourcesContent":["export default {\r\n    h1: 25\r\n}"],"mappings":"AAAA,eAAe;EACXA,EAAE,EAAE;AADO,CAAf"},"metadata":{},"sourceType":"module"}

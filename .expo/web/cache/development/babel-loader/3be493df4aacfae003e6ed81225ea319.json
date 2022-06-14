@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Welcome from \"./Welcome\";\nexport { Welcome };","map":{"version":3,"names":["Welcome"],"sources":["D:/React/react-native-project/training-app/screens/index.tsx"],"sourcesContent":["import Welcome from \"./Welcome\";\r\nexport {\r\n    Welcome\r\n}"],"mappings":"AAAA,OAAOA,OAAP;AACA,SACIA,OADJ"},"metadata":{},"sourceType":"module"}
