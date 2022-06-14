@@ -61,7 +61,7 @@ const Messenger = (props: any) => {
                             userId2: eachKey.split('-')[1]
                         }
                     }).sort((item1, item2) => item1.timestamp - item2.timestamp);
-                debugger
+                // debugger
                 for (let i = 0; i < updatedChatHistory.length; i++) {
                     if (i < updatedChatHistory.length - 1) {
                         let user1_c = updatedChatHistory[i].userId1;
@@ -75,7 +75,7 @@ const Messenger = (props: any) => {
                 }
                 // console.log(updatedChatHistory);
                 setChatHistory(updatedChatHistory);
-                debugger
+                // debugger
             }
         })
     }, [])
